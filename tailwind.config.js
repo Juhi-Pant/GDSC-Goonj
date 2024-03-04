@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'avengers' : "url('./src/assests/Images/extracted avengers 1.png')"
+      }
+    },
   },
   plugins: [],
 }
